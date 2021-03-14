@@ -22,7 +22,6 @@ def load_module(dirname, filename, base_dir="."):
     save_dir = os.path.abspath(".")
 
     base_dir = os.path.abspath(base_dir)
-    os.chdir(os.path.abspath(dirname))
     sys.path.append(base_dir)
     sys.path.append(os.path.join(base_dir, dirname))
 

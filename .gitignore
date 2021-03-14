@@ -43,3 +43,8 @@ build/*
 docs/build/*
 gadma.egg-info/*
 dist/*
+
+#Pycharm files
+.idea
+.ipynb_checkpoints/
+deminf_data.egg-info
